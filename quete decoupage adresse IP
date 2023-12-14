@@ -1,0 +1,27 @@
+Pôle Informatique (50 équipements) :
+2^(6)−2=(64-2)= 62 adresses
+CIDR : 172.16.1.0/26
+Adresse réseau : 172.16.1.0
+Adresse broadcast : 172.16.1.63
+
+
+Pôle Développement (12 équipements) :
+
+2^(4−2) =(16−2)= 14 adresses
+CIDR : 172.16.1.64/28
+Adresse réseau : 172.16.1.64
+Adresse broadcast : 172.16.1.79
+
+Pôle Administratif (20 équipements) :
+
+2^(5)-2 = 32-2 = 30 adresses
+CIDR : 172.16.1.128/27
+Adresse réseau : 172.16.1.128
+Adresse broadcast : 172.16.1.159
+
+Pôle Technicien (15 équipements) :
+
+2^(4)-2=16-2=  14 adresses
+CIDR : 172.16.1.192/28
+Adresse réseau : 172.16.1.192
+Adresse broadcast : 172.16.1.207
