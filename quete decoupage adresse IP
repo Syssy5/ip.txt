@@ -21,10 +21,10 @@ Adresse broadcast : 172.16.1.159
 
 Pôle Technicien (15 équipements) :
 
-2^(4)-2=16-2=  14 adresses
+2^(5)-2=32-2=  30 adresses
 CIDR : 172.16.1.192/28
 Adresse réseau : 172.16.1.192
-Adresse broadcast : 172.16.1.207
+Adresse broadcast : 172.16.1.224
 
 
 Decoupage asymetrique 
@@ -34,6 +34,6 @@ Pôle Informatique   	172.16.1.0	       172.16.1.63	           172.16.1.1	      
 
 Pôle Développement	  172.16.1.64	       172.16.1.79	           172.16.1.65	                 172.16.1.78
 
-Pôle Administratif	  172.16.1.128	     172.16.1.159	           172.16.1.129	                 172.16.1.158
+Pôle Administratif	  172.16.1.80	     172.16.1.112	           172.16.1.81	                 172.16.1.111
 
-Pôle Technicien      	172.16.1.192	     172.16.1.207	           172.16.1.193	                 172.16.1.206
+Pôle Technicien      	172.16.1.113	     172.16.1.147	           172.16.1.114                 172.16.1.144
