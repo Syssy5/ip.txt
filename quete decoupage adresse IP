@@ -1,6 +1,11 @@
+decoupage symetrique
+On allouera pour chaque pole un miminimum de 62 adresses ( adresses coimprenant l'adresse reseau et l adresse broadcast ) 
+
+
 Pôle Informatique (50 équipements) :
 2^(6)−2=(64-2)= 62 adresses
 CIDR : 172.16.1.0/26
+le reseau commencera à 172.16.1.1 et finira à 172.16.1.62
 Adresse réseau : 172.16.1.0
 Adresse broadcast : 172.16.1.63
 
@@ -9,23 +14,24 @@ Pôle Développement (12 équipements) :
 
 2^(4−2) =(16−2)= 14 adresses
 CIDR : 172.16.1.64/28
-Adresse réseau : 172.16.1.64
-Adresse broadcast : 172.16.1.79
+le reseau commencera à 172.16.1.64 et finira à 172.16.1.127
+Adresse réseau : 172.16.1.65
+Adresse broadcast : 172.16.1.128
 
 Pôle Administratif (20 équipements) :
 
 2^(5)-2 = 32-2 = 30 adresses
-CIDR : 172.16.1.128/27
-Adresse réseau : 172.16.1.128
+CIDR : 172.16.1.131/27
+Adresse réseau : 172.16.1.130
 Adresse broadcast : 172.16.1.159
-
+le reseau commencera à 172.16.1.131 et finira à 172.16.1.200
 Pôle Technicien (15 équipements) :
 
 2^(5)-2=32-2=  30 adresses
-CIDR : 172.16.1.192/28
-Adresse réseau : 172.16.1.192
-Adresse broadcast : 172.16.1.224
-
+CIDR : 172.16.2.1/28
+Adresse réseau : 172.16.2.0
+Adresse broadcast : 172.16.2.63
+le reseau commencera à 172.16.2.1 et finira à 172.16.2.62
 
 Decoupage asymetrique 
 
